@@ -25,8 +25,8 @@ app.post('/update-url', (req, res) => {
     res.redirect(pathname);
 });
 
-// app.use(function (req, res) {
-//     res.status(404).redirect('/update-url');
-// });
+app.use(function (req, res) {
+    res.status(404).sendFile(__dirname + '/home.html');
+});
 
 app.listen(process.env.PORT || 2005, () => console.log('Server running...'));
