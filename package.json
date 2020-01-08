@@ -1,0 +1,24 @@
+{
+  "name": "proxy-server",
+  "version": "1.0.0",
+  "description": "Bypass proxy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duc010298-1/proxy-server.git"
+  },
+  "author": "duc010298-1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duc010298-1/proxy-server/issues"
+  },
+  "homepage": "https://github.com/duc010298-1/proxy-server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "json-proxy": "^0.9.3"
+  }
+}
