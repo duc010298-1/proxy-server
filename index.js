@@ -35,6 +35,4 @@ app.use(function (req, res) {
     res.status(404).redirect('/update-url');
 });
 
-app.listen(2005);
-
-console.log('Server running...');
+app.listen(process.env.PORT || 2005, () => console.log('Server running...'));
